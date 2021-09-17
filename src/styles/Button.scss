@@ -18,8 +18,16 @@
     img {
       margin-right: 8px;
     }
-    &:note(:disabled):hover {
-      filter: brightness(0.7);
+
+    &.outlined {
+      background: #FFF;
+      border: 2px solid #835afd;
+      color: #835afd;
+      font-weight: 500;
+    }
+
+    &:not(:disabled):hover {
+      filter: brightness(0.9);
     }
     &:disabled {
       opacity: 0.6;
