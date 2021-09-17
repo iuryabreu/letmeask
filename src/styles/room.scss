@@ -45,15 +45,18 @@
     form {
       textarea {
         width: 100%;
-        border: 0;
+        border: 2px solid transparent;
         padding: 16px;
         border-radius: 8px;
         background: #fefefe;
         box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
         resize: none;
         min-height: 120px;
-        &:focus{
+        transition: 800ms;
+        &:focus {
           outline: none;
+          border: 2px solid rgba(0, 0, 0, 0.2);
+          transition: 400ms;
         }
       }
 
@@ -97,6 +100,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 20px;
     }
   }
 }
