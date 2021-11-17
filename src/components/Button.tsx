@@ -14,9 +14,11 @@ export function Button({
 }: ButtonProps) {
   return (
     <button
-      className={`button ${outLined ? "outlined" : ""} ${
-        danger ? "danger" : ""
-      }`}
+      className={`button 
+      ${outLined ? "outlined" : ""} 
+      ${danger ? "danger" : ""}
+      `
+    }
       {...props}
     />
   );
