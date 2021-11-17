@@ -26,6 +26,13 @@
       font-weight: 500;
     }
 
+    &.danger {
+      background: #dc3545;
+      border: 2px solid #dc3545;
+      color: #FFF;
+      font-weight: 500;
+    }
+
     &:not(:disabled):hover {
       filter: brightness(0.9);
     }

@@ -55,7 +55,7 @@ export const AdminRoom: React.FC = () => {
           <img src={logoImg} alt="logotipo" />
           <div>
             <RoomCode code={roomId} />
-            <Button outLined>Encerrar Sala</Button>
+            <Button danger>Encerrar Sala</Button>
           </div>
         </div>
       </header>
