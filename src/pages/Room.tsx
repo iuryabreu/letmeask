@@ -39,7 +39,7 @@ export const Room: React.FC = () => {
         name: user.name,
         avatar: user.avatar,
       },
-      isHighlighted: false,
+      isHighLighted: false,
       isAnswered: false,
     };
 
@@ -112,6 +112,8 @@ export const Room: React.FC = () => {
               key={question.id}
               content={question.content}
               author={question.author}
+              isAwnsered={question.isAnswered}
+              isHighLighted={question.isHighLighted}
             >
               <button
                 className={`like-button ${question.likeId ? "Liked" : ""}`}
