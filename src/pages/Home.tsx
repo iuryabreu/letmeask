@@ -51,7 +51,7 @@ export function Home() {
           src={illustration}
           alt="Ilustração simbolizando perguntas e respostas"
         />
-        <strong>Cria salas de Q&amp;A</strong>
+        <strong>Crie salas de Q&amp;A</strong>
         <p>Tire duvidas da sua audiencia em tempo real</p>
       </aside>
       <main>
