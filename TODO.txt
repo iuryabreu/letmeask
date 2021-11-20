@@ -1,1 +1,5 @@
-• Implementar toasts
+• README do projeto GITHUB
+• toasts
+• responsividade
+• Tema dark
+• ESLint e prettier
